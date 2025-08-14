@@ -6,7 +6,7 @@ pipeline{
          sh '''
           hostname -i
           echo "hostname is : $(hostname -i)'
-          '''
+           '''
        }
      }
     stage("build"){
