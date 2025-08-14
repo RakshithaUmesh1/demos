@@ -5,7 +5,7 @@ pipeline{
        steps{
          sh '''
           hostname -i
-          echo "hostname is : $(hostname -i)'
+          echo "hostname is : $(hostname -i)"
            '''
        }
      }
